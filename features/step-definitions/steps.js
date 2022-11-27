@@ -3,9 +3,10 @@ const { Given, When, Then } = require('@wdio/cucumber-framework');
 Given(/^I am on the (\w+) page$/, async (page) => {
     await browser.url(`https://www.newegg.com/${page}`);
     //browser.reloadSession()
-  
-});
-
+  });
+  Given("Close the promobanner if it appears by refreshing page", async (page) => {
+    await browser.reloadSession()
+  });
 
 //const promobanner = $('#modal-Website > div.modal-dialog.modal-dialog-centered > div > div > a > img');
 
