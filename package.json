@@ -2,6 +2,7 @@
   "name": "e2ehome",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "git@github.com:KrzysztofNalewajek1/Webdriver.git",
   "author": "KrzysztofNalewajek",
   "license": "MIT",
   "devDependencies": {
