@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#modal-Website > div.modal-dialog.modal-dialog-centered > div > div > a > img\"}\n  (Session info: chrome=107.0.5304.122)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0024ACD3+2075859]\n\tOrdinal0 [0x001DEE61+1633889]\n\tOrdinal0 [0x000DB7BD+571325]\n\tOrdinal0 [0x0010AC2F+764975]\n\tOrdinal0 [0x0010AE1B+765467]\n\tOrdinal0 [0x0013D0F2+970994]\n\tOrdinal0 [0x00127364+881508]\n\tOrdinal0 [0x0013B56A+963946]\n\tOrdinal0 [0x00127136+880950]\n\tOrdinal0 [0x000FFEFD+720637]\n\tOrdinal0 [0x00100F3F+724799]\n\tGetHandleVerifier [0x004FEED2+2769538]\n\tGetHandleVerifier [0x004F0D95+2711877]\n\tGetHandleVerifier [0x002DA03A+521194]\n\tGetHandleVerifier [0x002D8DA0+516432]\n\tOrdinal0 [0x001E682C+1665068]\n\tOrdinal0 [0x001EB128+1683752]\n\tOrdinal0 [0x001EB215+1683989]\n\tOrdinal0 [0x001F6484+1729668]\n\tBaseThreadInitThunk [0x7650FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77347BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77347B8E+238]\n\t(No symbol) [0x00000000]\n"
+}
