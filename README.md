@@ -1,5 +1,28 @@
 # Webdriverclass
-## Installation:
+## Run test:
+  - Clone repo git@github.com:KrzysztofNalewajek1/Webdriverclass.git
+  - run npm install
+  - run yarn wdio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Project Installation:
     - Check node version node -v (if needed, install)
     - Check yarn version yarn -v (if needed, install)
     - Create project folder and navigate to it
@@ -18,7 +41,7 @@
       - What is the base url?  (default)
       - Do you want me to run `npm install`  (y)
 
-## Test creation:
+
 
 
 
