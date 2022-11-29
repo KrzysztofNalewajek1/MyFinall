@@ -20,13 +20,12 @@ When ("I click the search", async () => {
   });
 
 Then("I Check that at least one item appears", async () => {
-    await expect($('#item_cell_32-350-881_1_0')).toBeExisting();
+    await $('#item_cell_32-350-881_1_0 > div > a > img').isDisplayed();
 });
 
 //Internet shop logo button
 When ("I open 'Today's Best Deals' tab", async () => {
-    const BestDeal = await $('#trendingBanner_720202')
-    await BestDeal.click()
+    await $('#trendingBanner_720202').click()
 });   
 
 When ("I click on the Internet shop logo", async () => {
