@@ -2,21 +2,11 @@ const { Given, When, Then } = require('@wdio/cucumber-framework');
 
 Given(/^I am on the (\w+) page$/, async (page) => {
     await browser.url(`https://www.newegg.com/${page}`);
-    //browser.reloadSession()
+   
   });
   Given("Close the promobanner if it appears by refreshing page", async (page) => {
     await browser.reloadSession()
   });
-
-//const promobanner = $('#modal-Website > div.modal-dialog.modal-dialog-centered > div > div > a > img');
-
-//Given(/^I am on the (\w+) page$/, async (homepage) => {
-  //  await browser.url(`https://www.newegg.com/${homepage}`);
-//And 
-    //await expect(await promobanner).waitForDisplayed()({ timeout: 10000 });
-    //await $('#modal-Website > div.modal-dialog.modal-dialog-centered > div > button').click()
-        //await promobanner.waitForDisplayed()({ timeout: 10000 })
-//});
 
 //Search bar
 When ("I enter the word 'Windows' in the search bar", async () => {
@@ -40,7 +30,7 @@ When ("I open 'Today's Best Deals' tab", async () => {
 });   
 
 When ("I click on the Internet shop logo", async () => {
-    const logoImage = await $('/html/body/div[13]/header/div[1]/div[1]/div[1]/div[2]/a')
+    const logoImage = await $('#app > header > div.page-content-inner > div:nth-child(1) > div.section-left.auto-flex > div.header2021-logo > a')
     await logoImage.click()
 }); 
 
