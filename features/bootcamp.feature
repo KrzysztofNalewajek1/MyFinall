@@ -2,7 +2,7 @@ Feature: Bootcamp E2E
 
     Background:
         Given I am on the home page
-        ##And   Close the promobanner if it appears by refreshing page
+        And   Close the promobanner if it appears by refreshing page
 
     Scenario: Search bar
         When  I enter the word 'Windows' in the search bar
